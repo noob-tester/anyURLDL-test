@@ -54,9 +54,7 @@ Expires on: 31/12/2020"""
    DFile  - Give File without Screenshots
    
 
-Send /me to know current plan details
-
-"""
+Send /me to know current plan details"""
     REPLY_TO_DOC_GET_LINK = "Reply to a Telegram media to get High Speed Direct Download Link"
     REPLY_TO_DOC_FOR_C2V = "Reply to a Telegram media to convert"
     REPLY_TO_DOC_FOR_SCSS = "Reply to a Telegram media to get screenshots"
