@@ -1,14 +1,16 @@
 class Translation(object):
     START_TEXT = """Hello,
-This is a Telegram URL Upload Bot!
+i am Telegram URL Upload Bot!
 
 <b>Please send me any direct download URL Link, i can upload to telegram as File/Video</b>
+ 
  
  NB: its support almost all direct Urls except <b>GOOGLE DRIVE LINK</b> 🚨
 
 see /help for more details..
 
-its <code> AnyDLclone bot </code> created by @OO7ROBOT
+
+its AnyDLclone bot created by @OO7ROBOT
 
 For more updates☛ @myTestBotz"""
     RENAME_403_ERR = "Sorry. You are not permitted to rename this file."
@@ -23,7 +25,7 @@ URL | filename | username | password"""
     RCHD_BOT_API_LIMIT = "size greater than maximum allowed size (50MB). Neverthless, trying to upload."
     RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDetected File Size: {}\nSorry. But, I cannot upload files greater than 1.5GB due to Telegram API limitations."
     AFTER_SUCCESSFUL_UPLOAD_MSG = """**Thank you for Using Me.** 
-    **Now you can send another File** 
+    **Now you can send another Link** 
     @myTestbotz"""
     AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "Downloaded in {} seconds. \nUploaded in {} seconds."
     NOT_AUTH_USER_TEXT = "Please /upgrade your subscription."
@@ -41,20 +43,23 @@ URL | filename | username | password"""
 Telegram ID: <code>{}</code>
 Plan name: Free User
 Expires on: 31/12/2020"""
-    HELP_USER = """Hai am URL Uploader bot..
+    HELP_USER = """How to Use me 🤔
     
-1. Send url (Link|New Name with Extension).
+1. Send url
+
+if you need custom File Name do Like this ☛ (Link|New Name with Extension).
 
 2. Send Custom Thumbnail (Optional).
 
 3. Select the button.
-   SVideo - Give File as video with Screenshots
-   DFile  - Give File with Screenshots
-   Video  - Give File as video without Screenshots
-   DFile  - Give File without Screenshots
+   SVideo - File as video with Screenshots
+   DFile  - File with Screenshots
+   Video  - File as video without Screenshots
+   DFile  - File without Screenshots
    
+   thats it, I will Do Rest of it 😌
 
-Send /me to know current plan details"""
+"""
     REPLY_TO_DOC_GET_LINK = "Reply to a Telegram media to get High Speed Direct Download Link"
     REPLY_TO_DOC_FOR_C2V = "Reply to a Telegram media to convert"
     REPLY_TO_DOC_FOR_SCSS = "Reply to a Telegram media to get screenshots"
