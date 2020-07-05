@@ -16,7 +16,7 @@ For more updates☛ @myTestBotz"""
     RENAME_403_ERR = "Sorry. You are not permitted to rename this file."
     ABS_TEXT = " Please don't be selfish."
     UPGRADE_TEXT = "you are that much Rich????"
-    FORMAT_SELECTION = "**Select the desired format**\nIf you want to set custom thumbnail, send photo before or quickly after tapping on any of the below buttons."
+    FORMAT_SELECTION = "<b>Select the desired format</b> \nIf you want to set custom thumbnail, send photo "
     SET_CUSTOM_USERNAME_PASSWORD = """ """
     NOYES_URL = "@robot URL detected. Please use https://shrtz.me/PtsVnf6 and get me a fast URL so that I can upload to Telegram, without me slowing down for other users."
     DOWNLOAD_START = """Downloading to my server 📥
