@@ -9,16 +9,15 @@ i am Telegram URL Upload Bot!
 
 see /help for more details..
 
-
-its AnyDLclone bot created by @OO7ROBOT
+       ┈┈┈••💙✿❤✿💚••┈┈┈
+AnyDLclone bot created by @OO7ROBOT
 
 For more updates☛ @myTestBotz"""
     RENAME_403_ERR = "Sorry. You are not permitted to rename this file."
     ABS_TEXT = " Please don't be selfish."
     UPGRADE_TEXT = "you are that much Rich????"
     FORMAT_SELECTION = "Select the desired format: <a href='{}'>file size might be approximate</a> \nIf you want to set custom thumbnail, send photo before or quickly after tapping on any of the below buttons.\nYou can use /deletethumbnail to delete the auto-generated thumbnail."
-    SET_CUSTOM_USERNAME_PASSWORD = """If you want to download premium videos, provide in the following format:
-URL | filename | username | password"""
+    SET_CUSTOM_USERNAME_PASSWORD = """ """
     NOYES_URL = "@robot URL detected. Please use https://shrtz.me/PtsVnf6 and get me a fast URL so that I can upload to Telegram, without me slowing down for other users."
     DOWNLOAD_START = """Downloading to my server 📥
     Please wait...⏳ 🙇🙇🙇"""
@@ -47,17 +46,16 @@ Plan name: Free User
 Expires on: 31/12/2020"""
     HELP_USER = """How to Use me 🤔
     
-1. Send url
+1. <b>Send url</b>
+         if you need custom File Name do Like this ☛ (Link|New Name with Extension).
 
-if you need custom File Name do Like this ☛ (Link|New Name with Extension).
+2. <b>Send Custom Thumbnail </b>(Optional).
 
-2. Send Custom Thumbnail (Optional).
-
-3. Select the button.
-   SVideo - File as video with Screenshots
-   DFile  - File with Screenshots
-   Video  - File as video without Screenshots
-   DFile  - File without Screenshots
+3. <b>Select the button.</b>
+   <b>SVideo</b> - File as video with Screenshots
+  <b>DFile</b>  - File with Screenshots
+   <b>Video</b>  - File as video without Screenshots
+   <b>File</b>  - File without Screenshots
    
    thats it, I will Do Rest of it 😌
 
