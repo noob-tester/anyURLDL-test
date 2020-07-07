@@ -295,13 +295,13 @@ async def download_coroutine(bot, session, url, file_name, chat_id, message_id, 
 
 🔗URL: {}
 
-📁Total File Size: {}
+📁 Total Size : {}
 
-📥Downloaded     : {}
+📥 Downloaded : {}
 
-🐌Speed          : {}
+🐌 Speed : {}
 
-⏱ Time Left     : {}""".format(
+⏱ Time Left : {}""".format(
     url,
     humanbytes(total_length),
     humanbytes(downloaded),
