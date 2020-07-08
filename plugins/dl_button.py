@@ -291,8 +291,7 @@ async def download_coroutine(bot, session, url, file_name, chat_id, message_id, 
                         (total_length - downloaded) / speed) * 1000
                     estimated_total_time = elapsed_time + time_to_completion
                     try:
-                       current_message = """**Download Status** 
- Downloading... {}                     
+                       current_message = """**Download Status**                    
 
 🔗URL: {}
 
@@ -303,7 +302,6 @@ async def download_coroutine(bot, session, url, file_name, chat_id, message_id, 
 🐌 Speed : {}
 
 ⏱ Time Left : {}""".format(
-    humanbytes(percentage),
     url,
     humanbytes(total_length),
     humanbytes(downloaded),
