@@ -188,13 +188,13 @@ async def echo(bot, update):
                     # special weird case :\
                     ikeyboard = [
                         pyrogram.InlineKeyboardButton(
-                            "🎞SS+Video [" +
+                            "🎞Video [" +
                             "] ( " +
                             approx_file_size + " )",
                             callback_data=(cb_string_video).encode("UTF-8")
                         ),
                         pyrogram.InlineKeyboardButton(
-                            "📁SS+File [" +
+                            "📁File [" +
                             "] ( " +
                             approx_file_size + " )",
                             callback_data=(cb_string_file).encode("UTF-8")
