@@ -218,20 +218,7 @@ async def echo(bot, update):
         else:
             format_id = response_json["format_id"]
             format_ext = response_json["ext"]
-            cb_string_file = "{}|{}|{}".format(
-                "file", format_id, format_ext)
-            cb_string_video = "{}|{}|{}".format(
-                "video", format_id, format_ext)
-            inline_keyboard.append([
-                pyrogram.InlineKeyboardButton(
-                    "🎞SS+Video",
-                    callback_data=(cb_string_video).encode("UTF-8")
-                ),
-                pyrogram.InlineKeyboardButton(
-                    "📁SS+File",
-                    callback_data=(cb_string_file).encode("UTF-8")
-                )
-            ])
+            
             cb_string_file = "{}={}={}".format(
                 "file", format_id, format_ext)
             cb_string_video = "{}={}={}".format(
