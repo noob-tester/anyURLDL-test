@@ -166,11 +166,11 @@ async def echo(bot, update):
                 if format_string is not None and not "audio only" in format_string:
                     ikeyboard = [
                         pyrogram.InlineKeyboardButton(
-                            "S " + format_string + " video " + approx_file_size + " ",
+                            "🎞SS+ " + format_string + " video " + approx_file_size + " ",
                             callback_data=(cb_string_video).encode("UTF-8")
                         ),
                         pyrogram.InlineKeyboardButton(
-                            "D " + format_ext + " " + approx_file_size + " ",
+                            "📁SS+ " + format_ext + " " + approx_file_size + " ",
                             callback_data=(cb_string_file).encode("UTF-8")
                         )
                     ]
@@ -188,13 +188,13 @@ async def echo(bot, update):
                     # special weird case :\
                     ikeyboard = [
                         pyrogram.InlineKeyboardButton(
-                            "SVideo [" +
+                            "🎞SS+Video [" +
                             "] ( " +
                             approx_file_size + " )",
                             callback_data=(cb_string_video).encode("UTF-8")
                         ),
                         pyrogram.InlineKeyboardButton(
-                            "DFile [" +
+                            "📁SS+File [" +
                             "] ( " +
                             approx_file_size + " )",
                             callback_data=(cb_string_file).encode("UTF-8")
@@ -207,13 +207,13 @@ async def echo(bot, update):
                 cb_string = "{}|{}|{}".format("audio", "320k", "mp3")
                 inline_keyboard.append([
                     pyrogram.InlineKeyboardButton(
-                        "MP3 " + "(" + "64 kbps" + ")", callback_data=cb_string_64.encode("UTF-8")),
+                        "🎵MP3 " + "(" + "64 kbps" + ")", callback_data=cb_string_64.encode("UTF-8")),
                     pyrogram.InlineKeyboardButton(
-                        "MP3 " + "(" + "128 kbps" + ")", callback_data=cb_string_128.encode("UTF-8"))
+                        "🎵MP3 " + "(" + "128 kbps" + ")", callback_data=cb_string_128.encode("UTF-8"))
                 ])
                 inline_keyboard.append([
                     pyrogram.InlineKeyboardButton(
-                        "MP3 " + "(" + "320 kbps" + ")", callback_data=cb_string.encode("UTF-8"))
+                        "🎵MP3 " + "(" + "320 kbps" + ")", callback_data=cb_string.encode("UTF-8"))
                 ])
         else:
             format_id = response_json["format_id"]
@@ -224,11 +224,11 @@ async def echo(bot, update):
                 "video", format_id, format_ext)
             inline_keyboard.append([
                 pyrogram.InlineKeyboardButton(
-                    "SVideo",
+                    "🎞SS+Video",
                     callback_data=(cb_string_video).encode("UTF-8")
                 ),
                 pyrogram.InlineKeyboardButton(
-                    "DFile",
+                    "📁SS+File",
                     callback_data=(cb_string_file).encode("UTF-8")
                 )
             ])
@@ -238,11 +238,11 @@ async def echo(bot, update):
                 "video", format_id, format_ext)
             inline_keyboard.append([
                 pyrogram.InlineKeyboardButton(
-                    "video",
+                    "🎞video",
                     callback_data=(cb_string_video).encode("UTF-8")
                 ),
                 pyrogram.InlineKeyboardButton(
-                    "file",
+                    "📁file",
                     callback_data=(cb_string_file).encode("UTF-8")
                 )
             ])
@@ -280,11 +280,11 @@ async def echo(bot, update):
             "video", "OFL", "ENON")
         inline_keyboard.append([
             pyrogram.InlineKeyboardButton(
-                "SVideo",
+                "🎞SS+Video",
                 callback_data=(cb_string_video).encode("UTF-8")
             ),
             pyrogram.InlineKeyboardButton(
-                "DFile",
+                "📁SS+File",
                 callback_data=(cb_string_file).encode("UTF-8")
             )
         ])
