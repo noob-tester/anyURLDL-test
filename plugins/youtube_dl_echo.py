@@ -280,11 +280,11 @@ async def echo(bot, update):
             "video", "OFL", "ENON")
         inline_keyboard.append([
             pyrogram.InlineKeyboardButton(
-                "🎞SS+Video",
+                "🎞SS-Video",
                 callback_data=(cb_string_video).encode("UTF-8")
             ),
             pyrogram.InlineKeyboardButton(
-                "📁SS+File",
+                "📁SS-File",
                 callback_data=(cb_string_file).encode("UTF-8")
             )
         ])
