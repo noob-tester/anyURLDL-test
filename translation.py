@@ -7,6 +7,8 @@ i am Telegram URL Upload Bot!
  
  NB: its support almost all direct Urls except <b>GOOGLE DRIVE LINK</b> 🚨
 
+🚨 Porn Contents will be gives you PERMANENT BAN 🚨
+
 see /help for more details..
 
        ┈┈┈••💙✿❤✿💚••┈┈┈
